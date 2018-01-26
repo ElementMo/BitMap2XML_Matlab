@@ -1,4 +1,4 @@
-img = imread('Grid.png');
+ianimg = imread('Grid.png');
 I = rgb2gray(img);
 [height,width] = size(I);
 I_bw = im2bw(I);
